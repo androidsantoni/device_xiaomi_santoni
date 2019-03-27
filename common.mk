@@ -306,6 +306,7 @@ PRODUCT_PACKAGES += \
    DialerOverlay \
    MiatollFrameworks \
    MiatollSystemUI \
+   NotchBarKiller \
    SettingsLibOverlay \
    SettingsOverlay \
    TelephonyOverlay \
