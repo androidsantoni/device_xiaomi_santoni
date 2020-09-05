@@ -5,5 +5,8 @@ allow system_app sysfs_msm_subsys:dir { search };
 
 get_prop(system_app, vendor_persist_camera_prop)
 
+allow system_app sysfs_zram:dir search;
+allow system_app sysfs_zram:file r_file_perms;
+
 # Aware
 get_prop(system_app, vendor_aware_available_prop);
