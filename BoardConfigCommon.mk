@@ -172,6 +172,9 @@ BOARD_FLASH_BLOCK_SIZE := 262144
 BOARD_VENDOR := xiaomi
 TARGET_BOARD_PLATFORM := atoll
 
+# Power
+TARGET_TAP_TO_WAKE_NODE := "/sys/touchpanel/double_tap"
+
 # Properties
 TARGET_ODM_PROP += $(COMMON_PATH)/properties/odm.prop
 TARGET_PRODUCT_PROP += $(COMMON_PATH)/properties/product.prop
