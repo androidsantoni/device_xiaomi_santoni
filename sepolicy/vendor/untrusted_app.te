@@ -6,6 +6,7 @@ allow untrusted_app proc_zoneinfo:file r_file_perms;
 allow untrusted_app vendor_sysfs_soc:file r_file_perms;
 allow untrusted_app sysfs_msm_subsys:dir { search };
 allow untrusted_app sysfs_msm_subsys:file r_file_perms;
+allow untrusted_app tmpfs:lnk_file { read };
 
 # Incremental
 get_prop(untrusted_app, incremental_prop)
