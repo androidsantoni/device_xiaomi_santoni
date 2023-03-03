@@ -102,11 +102,6 @@ on post-fs-data
 
 	mkdir /data/vendor/wlan_logs 0770 system wifi
 
-# Health
-on boot
-    chmod 0660 /sys/class/power_supply/battery/input_suspend
-    chown system system /sys/class/power_supply/battery/input_suspend
-
 # For cpusets initialize for Silver Only first and then Silver + Gold
 # Silver Only configuration cannot work with 0-7
 on boot
