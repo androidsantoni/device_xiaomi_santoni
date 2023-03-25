@@ -1,8 +1,8 @@
-# VoltageOS
+# LineageOS
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/voltage_santoni.mk
+    $(LOCAL_DIR)/lineage_santoni.mk
 
 COMMON_LUNCH_CHOICES := \
-    voltage_santoni-userdebug \
-    voltage_santoni-user \
-    voltage_santoni-eng
+    lineage_santoni-userdebug \
+    lineage_santoni-user \
+    lineage_santoni-eng
