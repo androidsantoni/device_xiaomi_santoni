@@ -23,10 +23,6 @@ vendor/lib64/libaudcal.so|2371c71996d9fcbef59347b364447c4ba257e34c
 vendor/lib64/libaudioalsa.so|534d4dc07fecea0611273c745721b1ed2015a3a3
 vendor/lib64/libqtigef.so|b3f1cb946809bfe20a4afced73b4fd24c5591421
 
-# Bluetooth (aptX) - from Nokia/Deadpool_00WW/DPL_sprout:11/RKQ1.200928.002/00WW_3_140:user/release-keys
-system/lib64/libaptXHD_encoder.so
-system/lib64/libaptX_encoder.so
-
 # Charger - from LA.UM.9.6.3.r1-04200-89xx.0
 vendor/bin/hvdcp_opti|722b3ff247db5fe45c7faa9a8fa6e82d3179d279
 
