@@ -75,6 +75,7 @@ persist.vendor.audio.calfile5=/vendor/etc/acdbdata/QRD/msm8920-sku7-snd-card/QRD
 persist.vendor.audio.calfile6=/vendor/etc/acdbdata/QRD/msm8920-sku7-snd-card/QRD_SKU7_Handset_cal.acdb
 
 # Bluetooth
+bluetooth.le.disable_apcf_extended_features=1
 bluetooth.sco.disable_enhanced_connection=1
 persist.vendor.qcom.bluetooth.enable.splita2dp=false
 persist.vendor.bt.enable.splita2dp=false
