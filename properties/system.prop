@@ -59,6 +59,7 @@ persist.log.tag.TrafficStats=S
 persist.log.tag.ContrastColorUtil=S
 persist.log.tag.RefreshRateConfigs=S
 persist.log.tag.CHIUSECASE=S
+persist.log.tag.OpenGLRenderer=S
 
 # Media
 media.settings.xml=/vendor/etc/media_profiles_vendor.xml
