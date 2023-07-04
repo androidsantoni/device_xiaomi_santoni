@@ -228,7 +228,6 @@ on charger
     start charge_logger
     start vendor.power_off_alarm
 
-
 on property:vendor.display.lcd_density=640
    setprop dalvik.vm.heapgrowthlimit 512m
 
