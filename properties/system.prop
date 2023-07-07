@@ -76,9 +76,6 @@ vendor.mm.enable.qcom_parser=16777215
 # Perf
 ro.vendor.qti.sys.fw.bservice_enable=true
 
-# Pre-Rendering
-ro.vendor.perf.scroll_opt=true
-
 # Qcom
 ro.vendor.qti.va_aosp.support=1
 
