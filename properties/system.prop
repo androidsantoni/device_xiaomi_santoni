@@ -20,6 +20,9 @@ dalvik.vm.dexopt.secondary=true
 # Disable MTE Async for system server
 arm64.memtag.process.system_server=off
 
+# Display
+debug.sf.enable_hwc_vds=1
+
 # FUSE
 persist.sys.fuse.passthrough.enable=true
 
