@@ -91,10 +91,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PRODUCT_PROPERTIES += \
     persist.vendor.bluetooth.modem_nv_support=true
 
-# Boot animation
-TARGET_SCREEN_HEIGHT := 2400
-TARGET_SCREEN_WIDTH := 1080
-
 # Build
 PRODUCT_BROKEN_VERIFY_USES_LIBRARIES := true
 RELAX_USES_LIBRARY_CHECK := true
@@ -440,10 +436,6 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/google/pixel \
     hardware/xiaomi
 
-
-# Speed profile services and wifi-service to reduce RAM and storage
-PRODUCT_SYSTEM_SERVER_COMPILER_FILTER := speed-profile
-
 # Shim
 PRODUCT_PACKAGES += \
     libwatermark_shim
@@ -485,13 +477,6 @@ $(foreach target, $(shell cat $(LOCAL_PATH)/configs/vintf/vndk.txt), $(eval PROD
 PRODUCT_COPY_FILES += \
     prebuilts/vndk/v29/arm64/arch-arm64-armv8-a/shared/vndk-core/libhidlcache.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhidlcache.so \
     prebuilts/vndk/v32/arm64/arch-arm64-armv8-a/shared/vndk-sp/libhidlbase.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhidlbase-v32.so
-
-PRODUCT_EXTRA_VNDK_VERSIONS := 29
-
-PRODUCT_PACKAGES += vndk_package
-
-PRODUCT_PACKAGES += \
-    com.android.vndk.current.on_vendor
 
 # WiFi
 PRODUCT_PACKAGES += \
