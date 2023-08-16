@@ -22,8 +22,22 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n_mr1.mk
 # Inherit from santoni device
 $(call inherit-product, device/xiaomi/santoni/device.mk)
 
-# Inherit some common LineageOS stuff.
+# Inherit some common RisingOS stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+
+#RisingOS Flags
+
+RISING_CHIPSET := MSM 8937
+RISING_MAINTAINER := Omansh Krishn
+# RISING_PACKAGE_TYPE := VANILLA-AOSP-OmanshKrishn
+TARGET_BUILD_APERTURE_CAMERA := true
+TARGET_ENABLE_BLUR := true
+TARGET_FACE_UNLOCK_SUPPORTED := true
+# TARGET_SUPPORTS_QUICK_TAP := true
+# WITH_GMS := true
+# TARGET_USE_GOOGLE_TELEPHONY := true
+# TARGET_PREBUILT_GCAM
+# TARGET_PREBUILT_PIXEL_LAUNCHER := true
 
 PRODUCT_DEVICE := santoni
 PRODUCT_BRAND := Xiaomi
