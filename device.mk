@@ -22,7 +22,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/developer_gsi_keys.mk)
 $(call inherit-product, vendor/xiaomi/santoni/santoni-vendor.mk)
 
 # Overlays
-DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay \
+    $(LOCAL_PATH)/overlay-lineage \
+    $(LOCAL_PATH)/overlay-rising
 
 # RRO (Runtime Resource Overlay)
 PRODUCT_ENFORCE_RRO_TARGETS := *
