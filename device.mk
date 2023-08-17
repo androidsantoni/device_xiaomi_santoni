@@ -377,6 +377,10 @@ PRODUCT_PACKAGES += \
     libstagefrighthw \
     libstagefright_enc_common
 
+# OTA
+PRODUCT_PACKAGES += \
+    Updates
+
 # Perf
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.perf@1.0.vendor \
