@@ -22,15 +22,4 @@
     <integer name="config_qs_columns_landscape">6</integer>
     <integer name="config_qs_rows_landscape">2</integer>
 
-    <!-- FPSInfoService FPS node file path -->
-    <string name="config_fpsInfoSysNode" translatable="false">/sys/devices/virtual/graphics/fb0/measured_fps</string>
-
-    <!-- The CPU temperature sensor path, defaults to empty -->
-    <string name="config_cpuTempSensor" translatable="false">/sys/class/thermal/thermal_zone10/temp</string>
-
-    <!-- The CPUs to display in CPUInfoService view -->
-    <string name="config_displayCpus" translatable="false">0,4</string>
-
-    <!-- The CPU temperature divider, if needed -->
-    <integer name="config_cpuTempDivider" translatable="false">1000</integer>
 </resources>
