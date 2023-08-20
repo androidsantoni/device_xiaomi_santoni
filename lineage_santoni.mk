@@ -29,7 +29,7 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 ALPHA_BUILD_TYPE := UNOFFICIAL-OmanshKrishn
 ALPHA_MAINTAINER := OmanshKrishn
-TARGET_ENABLE_BLUR := true
+TARGET_ENABLE_BLUR := false
 #GAPPS_BUILD_TYPE := 0
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_SUPPORTS_QUICK_TAP := true
