@@ -42,4 +42,4 @@ ifneq (,$(filter userdebug eng, $(TARGET_BUILD_VARIANT)))
 BOARD_VENDOR_SEPOLICY_DIRS += $(SEPOLICY_PATH)/legacy/vendor/test
 endif
 
--include device/voltage/sepolicy/qcom/sepolicy.mk
+-include device/custom/sepolicy/qcom/sepolicy.mk
