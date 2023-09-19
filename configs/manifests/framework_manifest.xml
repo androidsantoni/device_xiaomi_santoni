@@ -26,6 +26,14 @@ OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN
 IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 -->
 <manifest version="1.0" type="framework">
+    <!-- Lineage Health -->
+    <hal format="aidl" optional="true">
+        <name>vendor.lineage.health</name>
+        <interface>
+            <name>IChargingControl</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
     <!-- atfwd -->
     <hal format="hidl">
         <name>vendor.qti.hardware.radio.atcmdfwd</name>
