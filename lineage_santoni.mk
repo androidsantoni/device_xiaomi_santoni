@@ -27,8 +27,8 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 #RisingOS Flags
 
-RISING_CHIPSET := MSM 8937
-RISING_MAINTAINER := Omansh Krishn
+RISING_CHIPSET := MSM8937
+RISING_MAINTAINER := OmanshKrishn
 # RISING_PACKAGE_TYPE := VANILLA-AOSP-OmanshKrishn
 TARGET_BUILD_APERTURE_CAMERA := true
 TARGET_ENABLE_BLUR := false
