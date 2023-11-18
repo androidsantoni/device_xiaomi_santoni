@@ -316,7 +316,6 @@ PRODUCT_ENFORCE_RRO_TARGETS := *
 
 PRODUCT_PACKAGES += \
    ApertureOverlay \
-   ApertureDevOverlay \
    CarrierConfigOverlay \
    DialerOverlay \
    MiatollFrameworks \
@@ -325,7 +324,6 @@ PRODUCT_PACKAGES += \
    SettingsLibOverlay \
    SettingsOverlay \
    TelephonyOverlay \
-   TetheringConfigOverlay \
    WifiOverlay
 
 # Partitions
