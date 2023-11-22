@@ -549,6 +549,9 @@ PRODUCT_ART_TARGET_INCLUDE_DEBUG_BUILD := false
 # Optimize DEX files for speed and reduce storage space.
 PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := speed-profile
 
+# Use the non-debug version of the DEX2OAT tool to reduce the size of the system image.
+USE_DEX2OAT_DEBUG := false
+
 # Speed profile services and wifi-service to reduce RAM and storage.
 PRODUCT_SYSTEM_SERVER_COMPILER_FILTER := speed-profile
 
