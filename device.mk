@@ -546,6 +546,9 @@ PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
 # Exclude debug information from the system image to reduce its size.
 PRODUCT_ART_TARGET_INCLUDE_DEBUG_BUILD := false
 
+# Optimize DEX files for speed and reduce storage space.
+PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := speed-profile
+
 # Speed profile services and wifi-service to reduce RAM and storage.
 PRODUCT_SYSTEM_SERVER_COMPILER_FILTER := speed-profile
 
