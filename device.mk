@@ -180,7 +180,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.camera.device@1.0 \
     vendor.qti.hardware.camera.device@1.0.vendor \
     libdng_sdk.vendor \
-    libstdc++.vendor \
+    libstdc++_vendor \
     libgui_vendor
 
 # Cgroup and task_profiles
