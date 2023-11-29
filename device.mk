@@ -548,3 +548,11 @@ WITH_DEXPREOPT_DEBUG_INFO := false
 
 # Disable dex optimization for prebuilts
 DONT_DEXPREOPT_PREBUILTS := true
+
+# build ART in non-debug mode
+ART_BUILD_TARGET_NDEBUG := true
+ART_BUILD_TARGET_DEBUG := false
+
+# build the ART for host in non-debug mode
+ART_BUILD_HOST_NDEBUG := true
+ART_BUILD_HOST_DEBUG := false
