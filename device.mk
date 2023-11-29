@@ -545,3 +545,6 @@ PRODUCT_ALWAYS_PREOPT_EXTRACTED_APK := true
 
 # Disable generation of debug info during dexpreopt
 WITH_DEXPREOPT_DEBUG_INFO := false
+
+# Disable dex optimization for prebuilts
+DONT_DEXPREOPT_PREBUILTS := true
