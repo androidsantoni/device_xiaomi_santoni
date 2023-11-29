@@ -64,6 +64,10 @@ persist.gps.qc_nlp_in_use=1
 persist.loc.nlp_name=com.qualcomm.location
 ro.gps.agps_provider=1
 
+# Hint Manager
+debug.hwui.use_hint_manager=true
+debug.hwui.target_cpu_time_percent=30
+
 # Iorapd
 ro.iorapd.enable=false
 iorapd.perfetto.enable=false
