@@ -562,6 +562,9 @@ PRODUCT_ALWAYS_PREOPT_EXTRACTED_APK := true
 # Disable generation of debug info during dexpreopt
 WITH_DEXPREOPT_DEBUG_INFO := false
 
+# Disable dex optimization for prebuilts
+DONT_DEXPREOPT_PREBUILTS := true
+
 # Inherit several Android Go Configurations(Beneficial for everyone, even on non-Go devices)
 PRODUCT_USE_PROFILE_FOR_BOOT_IMAGE := true
 PRODUCT_DEX_PREOPT_BOOT_IMAGE_PROFILE_LOCATION := frameworks/base/config/boot-image-profile.txt
