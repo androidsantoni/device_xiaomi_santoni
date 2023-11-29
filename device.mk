@@ -542,3 +542,6 @@ PRODUCT_SYSTEM_SERVER_COMPILER_FILTER := speed-profile
 # Always preopt extracted APKs to prevent extracting out of the APK
 # for gms modules.
 PRODUCT_ALWAYS_PREOPT_EXTRACTED_APK := true
+
+# Disable generation of debug info during dexpreopt
+WITH_DEXPREOPT_DEBUG_INFO := false
