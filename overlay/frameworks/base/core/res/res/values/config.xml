@@ -543,4 +543,7 @@
          from DOZE to ON, in millis. -->
     <integer name="config_wakeUpDelayDoze">32</integer>
 
+    <!-- Whether the device supports Smart Pixels -->
+    <bool name="config_supportSmartPixels">false</bool>
+
 </resources>
