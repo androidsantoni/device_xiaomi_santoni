@@ -183,6 +183,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.camera.device@1.0.vendor \
     libdng_sdk.vendor \
     libstdc++_vendor \
+		libstdc++ \
     libgui_vendor
 
 # Cgroup and task_profiles
