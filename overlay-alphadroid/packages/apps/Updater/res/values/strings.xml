@@ -18,8 +18,8 @@
     <!--
           {device} - Device name
     -->
-    <string name="updater_server_url" translatable="false">https://gitlab.com/androidsantoni/ota/alphadroid/-/raw/alpha-13/{device}.json</string>
+    <string name="updater_server_url" translatable="false">https://gitlab.com/androidsantoni/ota/alphadroid/-/raw/alpha-14/{device}.json</string>
 
-    <string name="menu_changelog_url" translatable="false">https://gitlab.com/androidsantoni/ota/alphadroid/-/raw/alpha-13/changelog_<xliff:g id="device_name">%1$s</xliff:g>.txt</string>
+    <string name="menu_changelog_url" translatable="false">https://gitlab.com/androidsantoni/ota/alphadroid/-/raw/alpha-14/changelog_<xliff:g id="device_name">%1$s</xliff:g>.txt</string>
 
 </resources>
