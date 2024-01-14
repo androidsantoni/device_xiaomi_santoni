@@ -159,10 +159,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     audio.bluetooth.default \
     android.hardware.bluetooth.audio-impl \
-		android.hardware.bluetooth.a2dp@1.0.vendor \
-		android.hardware.bluetooth.audio@2.2-impl \
-		android.hardware.bluetooth.audio@2.1-impl \
-		android.hardware.bluetooth.audio@2.0-impl \
+	android.hardware.bluetooth.a2dp@1.0.vendor \
+	android.hardware.bluetooth.audio@2.2-impl \
+	android.hardware.bluetooth.audio@2.1-impl \
+	android.hardware.bluetooth.audio@2.0-impl \
     android.hardware.bluetooth@1.1.vendor \
     vendor.qti.hardware.btconfigstore@1.0.vendor:64 \
     vendor.qti.hardware.btconfigstore@2.0.vendor:64 \
@@ -203,7 +203,7 @@ PRODUCT_COPY_FILES += \
 
 # Dex
 PRODUCT_DEXPREOPT_SPEED_APPS += \
-    SystemUI \
+    SystemUIGoogle \
     Settings
 
 # Display
