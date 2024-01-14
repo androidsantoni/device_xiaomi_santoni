@@ -51,6 +51,11 @@
         <fqname>@1.0::IIWlan/slot2</fqname>
     </hal>
     <hal format="hidl">
+        <name>vendor.qti.hardware.fm</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.0::IFmHci/default</fqname>
+    </hal>
+    <hal format="hidl">
         <name>vendor.qti.data.factory</name>
         <transport>hwbinder</transport>
         <fqname>@2.2::IFactory/default</fqname>
