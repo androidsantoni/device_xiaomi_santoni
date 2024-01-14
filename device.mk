@@ -186,6 +186,8 @@ PRODUCT_PACKAGES += \
     libstdc++_vendor \
     libgui_vendor
 
+PRODUCT_PACKAGES += libstdc++
+
 # CipherOS
 PRODUCT_PACKAGES += \
     Updater \
