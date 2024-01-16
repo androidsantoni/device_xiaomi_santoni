@@ -161,8 +161,7 @@ PRODUCT_PACKAGES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    camera.msm8937 \
-    Snap
+    camera.msm8937
 
 PRODUCT_PACKAGES += \
     camera.device@1.0-impl \
@@ -248,6 +247,10 @@ PRODUCT_PACKAGES += \
 # GPS
 PRODUCT_PACKAGES += \
     libwifi-hal-ctrl
+
+# Google Camera (NGCam_7.4.104-v2.0_eng.apk)
+PRODUCT_PACKAGES += \
+    GCam
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/gps/flp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/flp.conf \
