@@ -138,11 +138,6 @@
         <fqname>@1.0::IOffloadControl/default</fqname>
     </hal>
     <hal format="hidl">
-        <name>android.hardware.thermal</name>
-        <transport>hwbinder</transport>
-        <fqname>@1.0::IThermal/default</fqname>
-    </hal>
-    <hal format="hidl">
         <name>com.qualcomm.qti.imscmservice</name>
         <transport>hwbinder</transport>
         <fqname>@2.2::IImsCmService/qti.ims.connectionmanagerservice</fqname>
