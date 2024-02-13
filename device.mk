@@ -22,7 +22,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/developer_gsi_keys.mk)
 $(call inherit-product, vendor/xiaomi/santoni/santoni-vendor.mk)
 
 # Overlays
-DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay \
+    $(LOCAL_PATH)/overlay-lineage \
+    $(LOCAL_PATH)/overlay-alphadroid
 
 # RRO (Runtime Resource Overlay)
 PRODUCT_ENFORCE_RRO_TARGETS := *
@@ -376,6 +379,13 @@ PRODUCT_PACKAGES += \
     libOmxVenc \
     libstagefrighthw \
     libstagefright_enc_common
+
+# OTA
+ PRODUCT_PACKAGES += \
+    AlphaUpdater
+
+PRODUCT_COPY_FILES += \
+    vendor/lineage/prebuilt/common/etc/init/init.lineage-updater.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.lineage-updater.rc
 
 # Perf
 PRODUCT_PACKAGES += \
