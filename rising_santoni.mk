@@ -22,13 +22,24 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n_mr1.mk
 # Inherit from santoni device
 $(call inherit-product, device/xiaomi/santoni/device.mk)
 
-# Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common risingOS stuff.
+$(call inherit-product, vendor/rising/config/rising.mk)
+
+RISING_BUILDTYPE := UNOFFICIAL-OmanshKrishn
+RISING_MAINTAINER := OmanshKrishn
+RISING_CHIPSET := SD435/MSM8940
+RISING_BATTERY := 4100mAh
+RISING_STORAGE := 16/32/64
+RISING_RAM := 2/3/4
+TARGET_ENABLE_BLUR := false
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_SUPPORTS_QUICK_TAP := true
+
 
 PRODUCT_DEVICE := santoni
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi 4X
-PRODUCT_NAME := lineage_santoni
+PRODUCT_NAME := rising_santoni
 BOARD_VENDOR := Xiaomi
 PRODUCT_MANUFACTURER := Xiaomi
 

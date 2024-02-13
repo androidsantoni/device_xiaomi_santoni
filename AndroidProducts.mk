@@ -1,8 +1,8 @@
 # LineageOS (crDroid)
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_santoni.mk
+    $(LOCAL_DIR)/rising_santoni.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_santoni-userdebug \
-    lineage_santoni-user \
-    lineage_santoni-eng
+    rising_santoni-userdebug \
+    rising_santoni-user \
+    rising_santoni-eng
