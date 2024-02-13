@@ -22,18 +22,24 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n_mr1.mk
 # Inherit from santoni device
 $(call inherit-product, device/xiaomi/santoni/device.mk)
 
-# Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common CipherOS stuff.
+$(call inherit-product, vendor/cipher/config/common_full_phone.mk)
+
+CIPHER_BUILD := UNOFFICIAL-OmanshKrishn
+CIPHER_MAINTAINER := OmanshKrishn
+CIPHER_BLUR := true
+CIPHER_BATTERY := 4100
+CIPHER_SCREEN := 720x1280
+
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_SUPPORTS_QUICK_TAP := true
 
 PRODUCT_DEVICE := santoni
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi 4X
-PRODUCT_NAME := lineage_santoni
+PRODUCT_NAME := cipher_santoni
 BOARD_VENDOR := Xiaomi
 PRODUCT_MANUFACTURER := Xiaomi
-
-# Overlay
-DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lineage
 
 # Boot animation
 TARGET_BOOT_ANIMATION_RES := 720

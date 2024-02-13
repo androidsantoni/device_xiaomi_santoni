@@ -22,7 +22,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/developer_gsi_keys.mk)
 $(call inherit-product, vendor/xiaomi/santoni/santoni-vendor.mk)
 
 # Overlays
-DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay \
+    $(LOCAL_PATH)/overlay-lineage \
+    $(LOCAL_PATH)/overlay-cipher
 
 # RRO (Runtime Resource Overlay)
 PRODUCT_ENFORCE_RRO_TARGETS := *
@@ -180,6 +183,12 @@ PRODUCT_PACKAGES += \
     libdng_sdk.vendor \
     libstdc++.vendor \
     libgui_vendor
+
+# CipherOS
+PRODUCT_PACKAGES += \
+    Updater \
+    CipherShades \
+    CipherWidget
 
 # Cgroup and task_profiles
 PRODUCT_COPY_FILES += \
