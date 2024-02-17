@@ -26,25 +26,35 @@ vendor/lib64/libqtigef.so|b3f1cb946809bfe20a4afced73b4fd24c5591421
 # Charger - from LA.UM.9.6.3.r1-04200-89xx.0
 vendor/bin/hvdcp_opti|722b3ff247db5fe45c7faa9a8fa6e82d3179d279
 
-# Dolby - from sofiap_ao_eea-user-11-RPR31.Q4U-20-26-2-a10bb-release-keys
--system_ext/app/MotoDolbyV3/MotoDolbyV3.apk|f6c483f79d9b8713ff03f475dad7bcf2c3e63ba5
--system_ext/priv-app/daxService/daxService.apk|14c00b94bad99462135cfe8f3da1bc71d8f72518
-system_ext/etc/permissions/com.dolby.daxservice.xml|86d4a12d3049d9de41db123026404f0c0bc40581
-system_ext/etc/permissions/com.motorola.dolby.dolbyui.features.xml|7eafc481b604505f057931a6f83c507e357886b3
-system_ext/etc/sysconfig/hiddenapi-whitelist-com.motorola.dolby.dolbyui.xml|ab4600814879c626a410e607107829faceec9d2c
-vendor/bin/hw/vendor.dolby.hardware.dms@1.0-service|7207a97fd3f00c854be4e4ddee98c881c61c2266
-vendor/etc/init/vendor.dolby.hardware.dms@1.0-service.rc|e91adb7565e4fa126880917ed4d8f9ba4f9391d9
-vendor/lib/soundfx/libswdap.so|0bd57dec350fb40ef3222723e59a7d5fe503ca7f
-vendor/lib/libdapparamstorage.so|6fce779d3b4f21783d3d96e82f9b185107bbab38
-vendor/lib/libstagefright_soft_ac4dec.so|0d1fc4ab24b8f1d99468cceff3fe086b56500bd7
-vendor/lib/libstagefright_soft_ddpdec.so|31f63b7189829ca194766da67823b3fe7e92e9d2
-vendor/lib/libstagefrightdolby.so|130b9da07e3c4a4ec04142049246eba18f1c350f
-vendor/lib/vendor.dolby.hardware.dms@1.0.so|c1d8cea6e281a2d5c497b24d55f5703f0bcc2860
-vendor/lib64/soundfx/libswdap.so|be0056eb6359158a5f6aa5e2a8ed0fa260a82949
-vendor/lib64/libdapparamstorage.so|c54376a54043115f11154b47b10f6156f904ed00
-vendor/lib64/libdlbdsservice.so|77e3a0d44ce95c7e5139badb94087ea58211b022
-vendor/lib64/vendor.dolby.hardware.dms@1.0-impl.so|7afb6907a83aa7c9faa7308ae5b39338eadac1c8
-vendor/lib64/vendor.dolby.hardware.dms@1.0.so|f3593ce869d036f98ddc7fc8223a8b55dcf0ca36
+# Dolby - from 9R OOS 11.2.8.8
+system/lib64/vendor.dolby.hardware.dms@2.0.so|0a1cb972160890b07baf3a3e624e9ec1273befed
+-system_ext/priv-app/DaxUI/DaxUI.apk|f2123124ddef928c7c490e2a83b0af5466a0df7e
+-system_ext/priv-app/daxService/daxService.apk|ed1de719afc7181a7e896e0eeaf14edc00761c21
+vendor/bin/hw/vendor.dolby.hardware.dms@2.0-service|84247a3563b362e97dacaa79d4845c1292a92f13
+vendor/etc/init/vendor.dolby.hardware.dms@2.0-service.rc|29296ebfe89b2697fec573be73cc3757fd97bed6
+vendor/lib/libdapparamstorage.so|6c488c6bc88abe13c6fd689124475526c1cf41b8
+vendor/lib/libdeccfg.so|28b3aa2368d091b50ef7d5f3c3d44466a89172f8
+vendor/lib/libqtigef.so|d2e8b296db9d8ff19051858ee1a0143e06c69df3
+vendor/lib/libstagefright_soft_ac4dec.so|e1560136d7f16ed177e8f848fba3448014ea061c
+vendor/lib/libstagefright_soft_ddpdec.so|c1a83910911cdab332088b10b2d3675b735a9524
+vendor/lib/libstagefrightdolby.so|c4269437c623630cf9c79c2010a7cfb88828584a
+vendor/lib/soundfx/libeffectproxy.so|44289fe864b085d53c051ad42ed233727ced175c
+vendor/lib/soundfx/libhwdap.so|6348b774b3df7bd2f485186f2ebc3e84d9435df8
+vendor/lib/soundfx/libswdap.so|bd73d33628837d0e3aa18d85c5ffb8e95b87af1b
+vendor/lib/soundfx/libswgamedap.so|a4d17b610b5cd873bd82c28f7361ba66a5d2c48e
+vendor/lib/vendor.dolby.hardware.dms@2.0.so|73532d31c8fdad87b69e9cc1724dfc5b02a893e7
+vendor/lib64/libdapparamstorage.so|b820de455f13bce531331f9e134b1e56b8a651d4
+vendor/lib64/libdeccfg.so|adea652793ab688253b0b56d6c165625184eab54
+vendor/lib64/libdlbdsservice.so|f8867071a19efabef94eae4eb62424a5a88b9ef0
+vendor/lib64/libstagefright_soft_ac4dec.so|8c89d21ba388c05504f2950d8a7c1103e57214ad
+vendor/lib64/libstagefright_soft_ddpdec.so|555b5b366c35bad0c6d6e98a3d04f1105e4d9e92
+vendor/lib64/libstagefrightdolby.so|67157be87b3d8fe2c5a057044ce596ce1b68d16b
+vendor/lib64/soundfx/libeffectproxy.so|e09115bb4087510eab62d21ab050274d6c98db71
+vendor/lib64/soundfx/libhwdap.so|901e19f8e271c8d228e41136ea8d611c3b3d30b4
+vendor/lib64/soundfx/libswdap.so|a468c839bd18e31d50f92d371dbd079374667068
+vendor/lib64/soundfx/libswgamedap.so|0491096a45e14d8097ceb80c15c0f946bbade389
+vendor/lib64/vendor.dolby.hardware.dms@2.0-impl.so|da03a56f6fbeb2bbe23ebb3a48b30fc3e5e76da3
+vendor/lib64/vendor.dolby.hardware.dms@2.0.so|45ab26d743b6a56b505447012347493ff41057fc
 
 # DRM - from LA.UM.9.6.2.r1-04100-89xx.0
 vendor/bin/qseecomd|80c97092e609e00057e4037da490c54b09205be0
