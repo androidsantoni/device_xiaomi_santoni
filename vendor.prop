@@ -161,6 +161,9 @@ ro.lmk.kill_heaviest_task=true
 ro.lmk.kill_timeout_ms=100
 ro.lmk.use_minfree_levels=true
 
+# Logs
+persist.log.tag.OpenGLRenderer=S
+
 # Media
 debug.stagefright.omx_default_rank=0
 debug.stagefright.omx_default_rank.sw-audio=16
