@@ -7,8 +7,7 @@ SYSTEM_EXT_PUBLIC_SEPOLICY_DIRS := \
 
 SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS := \
     $(SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS) \
-    $(SEPOLICY_PATH)/generic/private \
-    device/xiaomi/santoni/sepolicy/private
+    $(SEPOLICY_PATH)/generic/private
 
 SYSTEM_EXT_PUBLIC_SEPOLICY_DIRS := \
     $(SYSTEM_EXT_PUBLIC_SEPOLICY_DIRS) \
