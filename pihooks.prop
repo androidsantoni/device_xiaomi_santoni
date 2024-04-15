@@ -1,0 +1,16 @@
+persist.sys.pihooks.product_name=griffin_retcn
+persist.sys.pihooks.product_device=griffin
+persist.sys.pihooks.manufacturer=motorola
+persist.sys.pihooks.brand=motorola
+persist.sys.pihooks.product_model=XT1650-05
+persist.sys.pihooks.build_fingerprint=motorola/griffin_retcn/griffin:6.0.1/MCC24.246-37/42:user/release-keys
+persist.sys.pihooks.build_description=griffin-user 6.0.1 MCC24.246-37 42 release-keys
+persist.sys.pihooks.security_patch=2016-07-01
+persist.sys.pihooks.first_api_level=21
+persist.sys.pihooks.build_id=MCC24.246-37
+persist.sys.pihooks.build_type=user
+persist.sys.pihooks.build_tags=release-keys
+persist.sys.pihooks.verifiedbootstate=green
+persist.sys.pihooks.flash.locked=1
+persist.sys.pihooks.vbmeta.device_state=locked
+
