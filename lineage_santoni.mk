@@ -24,6 +24,7 @@ $(call inherit-product, device/xiaomi/santoni/device.mk)
 
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+TARGET_CALL_RECORDING_SUPPORTED := true
 
 DERP_VERSION_APPEND_TIME_OF_DAY := true
 
