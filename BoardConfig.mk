@@ -144,6 +144,7 @@ DEVICE_SPECIFIC_MEDIA_PATH := $(DEVICE_PATH)/qcom-caf/media
 DEVICE_FRAMEWORK_MANIFEST_FILE := $(DEVICE_PATH)/configs/manifests/framework_manifest.xml
 DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/configs/manifests/manifest.xml
 DEVICE_MATRIX_FILE   := $(DEVICE_PATH)/configs/manifests/compatibility_matrix.xml
+DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := $(DEVICE_PATH)/configs/manifests/framework_compatibility_matrix.xml
 
 # Init
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_santoni
