@@ -269,6 +269,9 @@ PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.2.vendor \
     fakelogprint
 
+PRODUCT_PACKAGES += \
+    liblzma.vendor:64
+
 # FM
 PRODUCT_PACKAGES += \
     FM2 \
