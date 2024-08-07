@@ -44,7 +44,7 @@ vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so|23706dcfa35cc6f7dee934e138
 vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.1.so|ece3dafc4447e8302109851c3a6b0d3978b3506d
 
 # CNE - from LA.UM.9.6.3.r1-06200-89xx.0
--vendor/app/CneApp/CneApp.apk|2839a8643422182451935867c83454dc7503c22b
+-vendor/app/CneApp/CneApp.apk|2839a8643422182451935867c83454dc7503c22b;REQUIRED=CneApp.libvndfwk_detect_jni.qti_symlink
 -vendor/app/IWlanService/IWlanService.apk|416379b01261da80d4c497e5fb9df5e794a1d0f6
 system_ext/lib64/com.quicinc.cne.api@1.0.so|76440d7953db0808e855eee393e116841b59c6d5
 system_ext/lib64/com.quicinc.cne.api@1.1.so|0b7d8bca2364f1445f3ba1208fc68f7eac7578fe
