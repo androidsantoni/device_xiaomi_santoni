@@ -69,3 +69,10 @@ PRODUCT_PACKAGES += \
     rfs_msm_slpi_readonly_vendor_firmware_symlink \
     rfs_msm_slpi_readwrite_symlink \
     rfs_msm_slpi_shared_symlink
+
+# Wifi firmware symlinks
+PRODUCT_PACKAGES += \
+    firmware_WCNSS_qcom_cfg.ini_symlink \
+    firmware_WCNSS_qcom_wlan_nv.bin_symlink \
+    firmware_WCNSS_wlan_dictionary.dat_symlink \
+    firmware_wlan_mac.bin_symlink
