@@ -23,6 +23,9 @@ $(call inherit-product, vendor/xiaomi/santoni/santoni-vendor.mk)
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
+# RFS Symlinks
+$(call inherit-product, $(LOCAL_PATH)/symlinks.mk)
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
