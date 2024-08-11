@@ -129,7 +129,8 @@ PRODUCT_PACKAGES += \
     android.hardware.soundtrigger@2.3-impl \
     android.hardware.soundtrigger@2.2-impl \
     android.hardware.soundtrigger@2.1-impl \
-    android.hardware.soundtrigger@2.0-impl
+    android.hardware.soundtrigger@2.0-impl \
+    sound_trigger.stub.default
 
 # Audio features
 PRODUCT_PACKAGES += \
@@ -509,7 +510,8 @@ PRODUCT_PACKAGES += \
     android.frameworks.sensorservice@1.0.vendor \
     android.hardware.sensors@1.0-impl:64 \
     android.hardware.sensors@1.0-service \
-    libsensorndkbridge
+    libsensorndkbridge \
+    libpower.vendor
 
 # Shims
 PRODUCT_PACKAGES += \
