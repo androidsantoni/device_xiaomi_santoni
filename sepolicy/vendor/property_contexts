@@ -29,6 +29,8 @@ vendor.target.init.complete     u:object_r:vendor_init_prop:s0
 # Radio
 persist.ims.regmanager.mode     u:object_r:vendor_imsradio_prop:s0
 persist.radio.psensor.rawdata   u:object_r:persist_sensors_radio_prop:s0
+ro.vendor.ril.svlte1x           u:object_r:vendor_radio_prop:s0
+ro.vendor.ril.svdo              u:object_r:vendor_radio_prop:s0
 
 # WiFi
 vendor.wlan.                    u:object_r:vendor_wifi_prop:s0
