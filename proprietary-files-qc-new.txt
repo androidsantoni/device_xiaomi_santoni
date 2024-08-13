@@ -294,7 +294,7 @@ vendor/bin/hw/qcrild|77d0168fbad7db01eec8abd9df25f19c05411eb4
 vendor/etc/init/qcrild.rc|17cf4934bf443cf6469d8b3ff622eeb0e4a0aac6
 vendor/lib64/libqcrilFramework.so|dc62bd4f3685c420d43f4f5f4141d5908212df86
 vendor/lib64/libqcrildatactl.so|716112f6bdbbe968f867b7ad73c7b0a12d1be6e1
-vendor/lib64/libril-qc-hal-qmi.so|f7a5b1ecd19c142fcfafcd46add97c9610e011c4
+vendor/lib64/libril-qc-hal-qmi.so|eb0237f87bc36012f8ea7f2833b952864eebb493
 vendor/lib64/libril-qc-logger.so|3ea877c66d4b5ef4a794e7d87cad1f4f9bb76022
 vendor/lib64/qcrild_librilutils.so|f12ebc05420621d930ffe7f4b4859117e3c9fc35
 vendor/lib64/qtibus.so|cef56e2d40f69b6b6c60b93edb612744395f7359

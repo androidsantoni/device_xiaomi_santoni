@@ -109,9 +109,9 @@
         <fqname>@1.5::IRadio/slot2</fqname>
     </hal>
     <hal format="hidl">
-        <name>android.hardware.radio.config</name>
+        <name>lineage.hardware.radio.config</name>
         <transport>hwbinder</transport>
-        <fqname>@1.2::IRadioConfig/default</fqname>
+        <fqname>@1.0::IRadioConfig/default</fqname>
     </hal>
     <hal format="hidl">
         <name>android.hardware.secure_element</name>
