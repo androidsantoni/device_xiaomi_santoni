@@ -35,24 +35,6 @@
             <Limit name="measured-frame-rate-352x288" range="84-84" />
             <Limit name="measured-frame-rate-640x480" range="54-54" />
         </MediaCodec>
-        <MediaCodec name="OMX.google.h264.encoder" type="video/avc" update="true">
-            <Limit name="measured-frame-rate-320x240" range="208-208" />
-            <Limit name="measured-frame-rate-720x480" range="98-98" />
-            <Limit name="measured-frame-rate-1280x720" range="44-44" />
-            <Limit name="measured-frame-rate-1920x1080" range="21-21" />
-        </MediaCodec>
-        <MediaCodec name="OMX.google.h263.encoder" type="video/3gpp" update="true">
-            <Limit name="measured-frame-rate-176x144" range="397-397" />
-        </MediaCodec>
-        <MediaCodec name="OMX.google.mpeg4.encoder" type="video/mp4v-es" update="true">
-            <Limit name="measured-frame-rate-176x144" range="413-413" />
-        </MediaCodec>
-        <MediaCodec name="OMX.google.vp8.encoder" type="video/x-vnd.on2.vp8" update="true">
-            <Limit name="measured-frame-rate-320x180" range="71-71" />
-            <Limit name="measured-frame-rate-640x360" range="37-37" />
-            <Limit name="measured-frame-rate-1280x720" range="21-21" />
-            <Limit name="measured-frame-rate-1920x1080" range="12-12" />
-        </MediaCodec>
     </Encoders>
     <Decoders>
         <MediaCodec name="OMX.qcom.video.decoder.avc" type="video/avc" update="true">
@@ -83,42 +65,6 @@
         <MediaCodec name="OMX.qti.video.decoder.mpeg4sw" type="video/mp4v-es" update="true">
             <Limit name="measured-frame-rate-480x360" range="232-232" />
             <Limit name="measured-frame-rate-176x144" range="322-322" />
-        </MediaCodec>
-        <MediaCodec name="OMX.google.h264.decoder" type="video/avc" update="true">
-            <Limit name="measured-frame-rate-320x240" range="250-250" />
-            <Limit name="measured-frame-rate-720x480" range="92-92" />
-            <Limit name="measured-frame-rate-1280x720" range="35-35" />
-            <Limit name="measured-frame-rate-1920x1080" range="15-15" />
-        </MediaCodec>
-        <MediaCodec name="OMX.google.hevc.decoder" type="video/hevc" update="true">
-            <Limit name="measured-frame-rate-352x288" range="226-226" />
-            <Limit name="measured-frame-rate-640x360" range="146-132" />
-            <Limit name="measured-frame-rate-720x480" range="183-183" />
-            <Limit name="measured-frame-rate-1280x720" range="83-83" />
-            <Limit name="measured-frame-rate-1920x1080" range="11-11" />
-        </MediaCodec>
-        <MediaCodec name="OMX.google.mpeg4.decoder" update="true">
-            <Type name="video/mp4v-es">
-                <Limit name="measured-frame-rate-176x144" range="430-450" />
-            </Type>
-        </MediaCodec>
-        <MediaCodec name="OMX.google.h263.decoder" type="video/3gpp" update="true">
-            <Limit name="measured-frame-rate-176x144" range="212-241" />
-            <Limit name="measured-frame-rate-352x288" range="172-175" />
-        </MediaCodec>
-        <MediaCodec name="OMX.google.vp8.decoder" type="video/x-vnd.on2.vp8" update="true">
-            <Limit name="measured-frame-rate-320x240" range="1330-1330" />
-            <Limit name="measured-frame-rate-320x180" range="495-500" />
-            <Limit name="measured-frame-rate-640x360" range="146-149" />
-            <Limit name="measured-frame-rate-1280x720" range="31-31" />
-            <Limit name="measured-frame-rate-1920x1080" range="12-13" />
-        </MediaCodec>
-        <MediaCodec name="OMX.google.vp9.decoder" type="video/x-vnd.on2.vp9" update="true">
-            <Limit name="measured-frame-rate-320x180" range="304-304" />
-            <Limit name="measured-frame-rate-320x240" range="511-511" />
-            <Limit name="measured-frame-rate-640x360" range="103-105" />
-            <Limit name="measured-frame-rate-1280x720" range="53-53" />
-            <Limit name="measured-frame-rate-1920x1080" range="29-31" />
         </MediaCodec>
     </Decoders>
 </MediaCodecs>
