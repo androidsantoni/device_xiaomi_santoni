@@ -150,6 +150,9 @@ vendor.hw.fm.init=0
 # GPS
 ro.gps.agps_provider=1
 
+# HW timeout multiplier
+ro.hw_timeout_multiplier=6
+
 # LMKD
 ro.lmk.log_stats=true
 ro.lmk.low=1001
