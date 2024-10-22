@@ -1,8 +1,8 @@
-# LineageOS (crDroid)
+# Project 404
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_santoni.mk
+    $(LOCAL_DIR)/p404_santoni.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_santoni-userdebug \
-    lineage_santoni-user \
-    lineage_santoni-eng
+    p404_santoni-userdebug \
+    p404_santoni-user \
+    p404_santoni-eng
