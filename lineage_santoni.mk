@@ -25,12 +25,12 @@ $(call inherit-product, device/xiaomi/santoni/device.mk)
 # Inherit some common risingOS stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-RISING_BUILDTYPE := UNOFFICIAL-OmanshKrishn
 RISING_MAINTAINER := OmanshKrishn
 RISING_CHIPSET := SD435/MSM8940
-RISING_BATTERY := 4100mAh
-RISING_STORAGE := 16/32/64
-RISING_RAM := 2/3/4
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    RISING_CHIPSET="SD435/MSM8940" \
+    RISING_MAINTAINER="OmanshKrishn"
+
 TARGET_ENABLE_BLUR := false
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_SUPPORTS_QUICK_TAP := true
