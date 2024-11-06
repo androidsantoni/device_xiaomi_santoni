@@ -15,11 +15,13 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
     <!--
+        Optional placeholders replaced at runtime:
           {device} - Device name
     -->
-    <string name="updater_server_url" translatable="false">https://gitlab.com/androidsantoni/ota/risingtechoss/-/raw/fourteen/{device}.json</string>
-
-    <string name="menu_changelog_url" translatable="false">https://gitlab.com/androidsantoni/ota/risingtechoss/-/raw/fourteen/changelog_<xliff:g id="device_name">%1$s</xliff:g>.txt</string>
+    <string name="updater_server_url_gapps" translatable="false">https://gitlab.com/androidsantoni/ota/risingtechoss/-/raw/fifteen/GAPPS_{device}.json</string>
+    <string name="updater_server_url_core" translatable="false">https://gitlab.com/androidsantoni/ota/risingtechoss/-/raw/fifteen/CORE_{device}.json</string>
+    <string name="updater_server_url_vanilla" translatable="false">https://gitlab.com/androidsantoni/ota/risingtechoss/-/raw/fifteen/VANILLA_{device}.json</string>
 
 </resources>
