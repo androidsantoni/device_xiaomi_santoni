@@ -171,6 +171,8 @@ allow qti_init_shell mpctl_data_file:file { write getattr unlink };
 allow qti_init_shell { proc proc_net}:file write;
 allow qti_init_shell proc_net:file r_file_perms;
 
+allow qti_init_shell proc_watermark_scale_factor:file { write };
+
 allow qti_init_shell graphics_device:dir create_dir_perms;
 allow qti_init_shell graphics_device:lnk_file create_file_perms;
 

@@ -37,6 +37,7 @@ allow vendor_qtelephony hal_perf_hwservice:hwservice_manager find;
 hal_client_domain(vendor_qtelephony, hal_telephony)
 binder_call(vendor_qtelephony, hal_imsrtp)
 binder_call(vendor_qtelephony, hal_perf_default)
+allow vendor_qtelephony hal_datafactory_hwservice:hwservice_manager { find };
 
 userdebug_or_eng(`
   diag_use(vendor_qtelephony)
