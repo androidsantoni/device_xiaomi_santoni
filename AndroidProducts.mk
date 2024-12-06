@@ -1,8 +1,8 @@
-# LineageOS (crDroid)
+# InfinityX
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_santoni.mk
+    $(LOCAL_DIR)/infinity_santoni.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_santoni-userdebug \
-    lineage_santoni-user \
-    lineage_santoni-eng
+    infinity_santoni-userdebug \
+    infinity_santoni-user \
+    infinity_santoni-eng
