@@ -29,6 +29,7 @@ $(call inherit-product, vendor/xdroid/config/common.mk)
 $(call inherit-product-if-exists, vendor/prebuilt-apps/config.mk)
 
 XDROID_BOOT_DARK := true
+XD_MAINTAINER := "Omansh Krishn"
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
 PRODUCT_DEVICE := santoni
