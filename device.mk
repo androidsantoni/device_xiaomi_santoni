@@ -522,6 +522,9 @@ PRODUCT_SOONG_NAMESPACES += device/xiaomi/santoni
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf
 
+# Updater
+AB_OTA_UPDATER := false
+
 # USB HAL
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.3-service.basic
