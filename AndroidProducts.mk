@@ -1,8 +1,8 @@
-# LineageOS (crDroid)
+# AlphaDroid
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_santoni.mk
+    $(LOCAL_DIR)/alpha_santoni.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_santoni-userdebug \
-    lineage_santoni-user \
-    lineage_santoni-eng
+    alpha_santoni-userdebug \
+    alpha_santoni-user \
+    alpha_santoni-eng

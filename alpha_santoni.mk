@@ -22,14 +22,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n_mr1.mk
 # Inherit from santoni device
 $(call inherit-product, device/xiaomi/santoni/device.mk)
 
-# Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common alphadroid stuff.
+$(call inherit-product, vendor/alpha/config/common_full_phone.mk)
 TARGET_CALL_RECORDING_SUPPORTED := true
 
 ALPHA_BUILD_TYPE := UNOFFICIAL-OmanshKrishn
 ALPHA_MAINTAINER := OmanshKrishn
 TARGET_ENABLE_BLUR := false
-#GAPPS_BUILD_TYPE := 0
+# TARGET_BUILD_PACKAGE := 1
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_INCLUDE_MATLOG := false
@@ -37,7 +37,7 @@ TARGET_INCLUDE_MATLOG := false
 PRODUCT_DEVICE := santoni
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi 4X
-PRODUCT_NAME := lineage_santoni
+PRODUCT_NAME := alpha_santoni
 BOARD_VENDOR := Xiaomi
 PRODUCT_MANUFACTURER := Xiaomi
 
