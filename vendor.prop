@@ -82,6 +82,7 @@ persist.bluetooth.a2dp_offload.disabled=true
 persist.vendor.bluetooth.modem_nv_support=true
 persist.vendor.qcom.bluetooth.soc=smd
 vendor.qcom.bluetooth.soc=smd
+ro.bluetooth.powerstats.disable=true
 
 # Camera
 camera.disable_zsl_mode=1
