@@ -498,6 +498,10 @@ PRODUCT_PACKAGES += \
     android.hardware.radio.c_shim@1.2 \
     android.hardware.radio.config@1.1-service.wrapper
 
+# Thermal
+PRODUCT_PACKAGES += \
+    android.hardware.thermal@2.0-service.qti
+
 # Sensors
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
