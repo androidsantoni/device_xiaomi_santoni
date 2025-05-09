@@ -413,6 +413,7 @@ service baseband-sh /vendor/bin/init.baseband.sh
 
 on property:sys.boot_completed=1
     start vendor.qcom-post-boot
+    setprop vendor.post_boot.parsed 1
 
 on property:persist.ims.regmanager.mode=1
     start ims_regmanager
