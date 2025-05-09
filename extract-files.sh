@@ -77,6 +77,10 @@ function blob_fixup() {
 	vendor/lib/sensors.ssc.so | vendor/lib64/sensors.ssc.so )
         "${PATCHELF}" --remove-needed "liblocationservice.so" "${2}"
         ;;
+    vendor/etc/seccomp_policy/atfwd@2.0.policy)
+        [ "$2" = "" ] && return 0
+        echo 'gettid: 1' >> ${2}
+        ;;
 	vendor/lib64/libril-qc-hal-qmi.so)
         for v in 1.{0..2}; do
           sed -i "s|android.hardware.radio.config@${v}.so|android.hardware.radio.c_shim@${v}.so|g" "${2}"
