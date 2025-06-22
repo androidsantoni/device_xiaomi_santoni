@@ -598,7 +598,3 @@ ART_BUILD_TARGET_DEBUG := false
 # build the ART for host in non-debug mode
 ART_BUILD_HOST_NDEBUG := true
 ART_BUILD_HOST_DEBUG := false
-
-# Inherit several Android Go Configurations(Beneficial for everyone, even on non-Go devices)
-PRODUCT_USE_PROFILE_FOR_BOOT_IMAGE := true
-PRODUCT_DEX_PREOPT_BOOT_IMAGE_PROFILE_LOCATION := frameworks/base/config/boot-image-profile.txt
