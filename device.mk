@@ -96,11 +96,6 @@ PRODUCT_COMPRESSED_APEX := false
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/apns-conf.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/apns-conf.xml
 
-# ANT
-PRODUCT_PACKAGES += \
-    AntHalService \
-    libantradio
-
 # Audio
 PRODUCT_PACKAGES += \
     audio.primary.msm8937 \
