@@ -36,9 +36,6 @@
 # Input files
 /sys/board_properties/virtualkeys.ft5x06_720p   u:object_r:keylayout_file_sysfs:s0
 
-# Thermal
-/(vendor|system/vendor)/bin/hw/android\.hardware\.thermal@2\.0-service\.qti u:object_r:hal_thermal_default_exec:s0
-
 # FPS Info
 /sys/devices/virtual/graphics/fb0/measured_fps                              u:object_r:sysfs_fps:s0
 
