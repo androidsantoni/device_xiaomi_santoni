@@ -27,7 +27,7 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 TARGET_CALL_RECORDING_SUPPORTED := true
 
 DERP_VERSION_APPEND_TIME_OF_DAY := true
-
+TARGET_DISABLE_EPPE := true
 TARGET_ENABLE_BLUR := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_SUPPORTS_QUICK_TAP := true
